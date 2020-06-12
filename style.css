@@ -1,0 +1,77 @@
+body {
+ background-color: #ffcbcb;
+ color: #1b1b1b;
+ font-family: Helvetica;
+ font-size: 20px;
+}
+
+h1{
+	color: lightcoral;
+    font-family: 'Lobster', cursive;
+    font-weight: 800px;
+    letter-spacing: 25px;
+    font-size: xxx-large;
+    line-height: 50px;
+}
+h2, h3 {
+	font-family: 'Lobster' , cursive;
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+a {
+	font-family: 'Libre Baskerville' , serif;
+   text-decoration: none;
+   color: #09AEA6;
+   font-size: bold;
+   font-size: 20px;
+}
+a:hover {
+	color: #ffcbcb;
+}  
+
+
+/* custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-color {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 11px;
+}
+.img-shape {
+	border-radius: 9px;
+}
+.btn-color {
+	background-color: #09AEA6;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 11px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 70px;
+
+}
+
+.space p {
+ margin-bottom: 80px;
+}
+
+
